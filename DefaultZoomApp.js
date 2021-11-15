@@ -8,9 +8,9 @@ const DefaultZoomApp = () => {
   const lensWidth = 100;
   const previewLensHeight =250;
   const img =
-  "https://clock.nectec.or.th/download/images/7faDhGf3.jpg?q=80";
+  "https://<IPADDRESS>/download/images/7faDhGf3.jpg?q=80";
   const previewImg =
-  "https://clock.nectec.or.th/download/images/7faDhGf3.jpg?q=100";
+  "https://<IPADDRESS>/download/images/7faDhGf3.jpg?q=100";
   const { DefaultView } = useImageZoom({
     imgHeight,
     imgWidth,
