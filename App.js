@@ -59,7 +59,7 @@ const App = () => {
 
   useEffect(() => {
     const intervalId = setInterval (() => {
-      const url = "https://clock.nectec.or.th:5842/status";
+      const url = "https://<IPAddress>:5842/status";
       const fetchData = async () => {
       try {
         const response = await fetch(url);
