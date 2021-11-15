@@ -1,0 +1,55 @@
+/* DSEG7 Classic */
+
+@font-face {
+  font-family: 'DSEG14-Classic';
+  src: 
+  url('./fonts/DSEG14-Classic/DSEG14Classic-Bold.woff') format('woff'),
+  url('./fonts/DSEG14-Classic/DSEG14Classic-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DSEG14-Classic';
+  src:
+  url('./fonts/DSEG14-Classic/DSEG14Classic-BoldItalic.woff') format('woff'),
+  url('./fonts/DSEG14-Classic/DSEG14Classic-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DSEG14-Classic';
+  src: 
+  url('./fonts/DSEG14-Classic/DSEG14Classic-Italic.woff') format('woff'),
+  url('./fonts/DSEG14-Classic/DSEG14Classic-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DSEG14-Classic';
+  src: 
+  url('./fonts/DSEG14-Classic/DSEG14Classic-Light.woff') format('woff'),
+  url('./fonts/DSEG14-Classic/DSEG14Classic-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DSEG14-Classic';
+  src: 
+  url('./fonts/DSEG14-Classic/DSEG14Classic-LightItalic.woff') format('woff'),
+  url('./fonts/DSEG14-Classic/DSEG14Classic-LightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DSEG14-Classic';
+  src: 
+  url('./fonts/DSEG14-Classic/DSEG14Classic-Regular.woff') format('woff'),
+  url('./fonts/DSEG14-Classic/DSEG14Classic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

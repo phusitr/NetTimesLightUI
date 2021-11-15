@@ -1,0 +1,48 @@
+
+@import 'fonts.css';
+
+.menu {
+  position: relative;
+  width: 80px;
+  z-index: 0;
+}
+
+.item {
+  background: #000;
+  box-sizing: border-box;
+  cursor: pointer;
+  color:#CCC;
+  font-family: 'Dongle';
+  font-size: 2vw;
+  padding: 4px;
+  position: relative;
+  text-align: left;
+  transition: background-color .05s ease-in-out;
+  z-index: 1;
+}
+
+.open {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  z-index: 0;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  cursor:zoom-in;
+}
+
+.img-preview-section-container {
+  display: none;
+}
+.container:hover .img-preview-section-container {
+  display: block;
+  position: relative;
+  left: 1px;
+  border: 1px solid #333;
+  border-radius: 7px;
+}
+
