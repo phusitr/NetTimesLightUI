@@ -5,7 +5,7 @@ const files = [
   {
     name: "Law",
     file:
-      "https://internet.nectec.or.th/download/pdf/8fa4fAj2.pdf?rnd=" +
+      "https://<IPADDRESS>/download/pdf/8fa4fAj2.pdf?rnd=" +
        Math.random(),
        filename:"nettimes_relatedlaw.pdf",
   }
